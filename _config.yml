@@ -1,6 +1,6 @@
 title: 闻客-做一个有态度的看客
 description: > 
-简单阅读，简单生活
+    简单阅读，简单生活
 permalink: ':title/'
 baseurl: "/" 
 url: "http://www.wenkr.com" 
