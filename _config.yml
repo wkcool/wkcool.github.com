@@ -1,0 +1,30 @@
+title: 闻客-做一个有态度的看客
+description: > 
+简单阅读，简单生活
+permalink: ':title/'
+baseurl: "/" 
+url: "http://www.wenkr.com" 
+
+# Author Settings
+author: 闻客 
+author-img: wenzi.jpg 
+about-author: 让我们开始阅读吧 
+email: aihai2800@126.com 
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
